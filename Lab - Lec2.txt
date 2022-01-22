@@ -1,0 +1,82 @@
+1. Using vi write your CV in the file mycv. Your CV should include your name, age, school, college, experience,...
+vim mycv
+cat mycv
+name: bayader alomari
+age: 28
+collage: king abdulaziz university
+experience: Mrsool - software engineer.
+
+2. Open mycv file using vi command then: Without using arrows state how to:
+	a. Move the cursor down one line at time.
+           Press Return key or press j.
+
+	b. Move the cursor up one line at time.
+           Press k
+
+	c. Search for word age
+           Press / then type age then press Enter.
+
+	d. Step to line 5 (assuming that you are in line 1 and file is more than 5 lines).
+           Press Esc then type line 5 then press shift-g.
+
+	e. Delete the line you are on and line 5.
+           Press Esc then move the cursor in the line and type :5d then press Enter.
+	f. How to step to the end of line and change to writing mode in one-step.
+           Press $ then insert i.
+
+3. List the available shells in your system.
+cat /etc/shells
+
+4. List the environment variables in your current shell
+    env
+SHELL=/bin/bash
+ESSION_MANAGER=local/bayader-VirtualBox:@/tmp/.ICE-unix/1379,unix/bayader-Vir
+alBox:/tmp/.ICE-unix/1379
+ACCESSIBILITY=1
+OLORTERM=truecolor
+DG_ CONFIG DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+DG MENU PREFIX=gnome -
+¡NOME _DESKTOP SESSION ID=this-is-deprecated
+_C ADDRESS=ar
+SA.UTF-8
+GNOME SHELL SESSION MODE=ubuntu
+_C NAME=ar SA.UTF-8
+SSH AUTHSOCK=/run/user/1000/kevring/ssh
+XMODIFIERS=dim=ibus
+DESKTOP SESSION=ubuntu
+LC MONETARY=ar SA. UTF-8
+SSH AGENT PID=1330
+GTK MODULES=gail:atk-bridge
+BUS STARTER BUS TYPE-session
+PWD=/etc
+LOGNAME=bayader
+XDG SESSION DESKTOP=ubuntu
+XDG SESSION TYPE=x11
+GG AGENT INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/run/user/1000/gdm/xauthority
+WINDOWPATH=2
+HOME=/home/bayader
+USERNAME=bayader
+IM CONFIG PHASE=1
+LC PAPER=ar SA.UTF-8
+
+5. List all of the environment variables for the bash shell.
+ printenv
+
+6. What are the commands that list the value of a specific variable?
+export , printenv , env
+
+7. Display your current shell name.
+echo $SHELL
+8. State the initialization files of: sh, ksh, bash.
+    sh= .profile
+    ksh= .kshrc
+    bash= .bashrc
+    
+9. Edit in your profile to display date at login and change your prompt permanently.
+nano .bashrc
+
+at the end of the file insert "date" and "PS1=bayader$"
+
+10. Create a Bash shell alias named ls for the “ls –l” command.
+alias ls="ls -l"
