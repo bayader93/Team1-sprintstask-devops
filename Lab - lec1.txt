@@ -1,0 +1,52 @@
+1. Install Ubunto OS using virtal machine.
+2. What is the difference between cat and more command?
+Cat: show the content file in one page, More: show the content file in multiple pages.
+
+3. What is the difference between rm and rmdir using man?
+rm: remove files or directory, rmdir: remove empty directories.
+
+4. Copy the /etc/passwd file to your home directory making its name is mypasswd.
+cp -r /etc/passwd /home/mypasswd
+
+5. Rename this new file to be oldpasswd.
+mv mypasswd oldpasswd
+
+6. You are in /usr/bin, list four ways to go to your home directory
+cd /home
+cd ¬
+cd $home
+cd -
+
+7. List Linux commands in /usr/bin that start with letter w
+w -h
+w -u
+w -s
+w -f
+w --help
+w -i
+w -V
+w -o
+w user
+
+8. Display the first 4 lines of /etc/passwd
+head -n4 /etc/passwd
+
+9. Display the last 7 lines of /etc/passwd
+tail -n7 /etc/passwd 
+
+10. Display the man pages of passwd the command and the file sequentially in one command.
+man passwd | man -l /passwd
+
+11. Display the man page of the passwd file.
+man -l /passwd
+
+12. Display a list of all the commands that contain the keyword passwd in their man page.
+chgpasswd
+chpasswd
+grub-mkpasswd-pbkdf2
+ldappasswd
+pam-localuser
+passwd (1)
+passwd (1ssl)
+passwd (5)
+update-passwd
