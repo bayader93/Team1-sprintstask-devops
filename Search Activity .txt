@@ -1,0 +1,19 @@
+﻿Q1- Search for the most common cloud providers?
+
+          AWS, Microsoft Azure, Google Cloud Platform, Alibaba cloud, IBM cloud.
+
+Q2 - The best use case of each cloud providers?
+
+            AWS: Netflix, Mcdonald’s, Airbnb, Samsung, Facebook.
+
+            Microsoft Azure: University of Toronto, AkzoNobel, Intercontinental Hotel Group.
+
+          GCP:    PayPal, Twitter, The Home Depot, UPS, Carrefour.
+
+          IBM Cloud: ADP, Huntington National Bank, Citi.
+
+          Alibaba Cloud: Ford, Cathay Pacific, IHG.
+
+Q3 - The most pillar difference between each cloud provider?
+          There are many differences between them like they are difference in Services Terminology , Pricing Options, Compute Options, Spot and Preemptible Instances and Sustained Use discounts.
+ Each company wants to choose one of these cloud providers should consider these differences and choose what is the best for them.
